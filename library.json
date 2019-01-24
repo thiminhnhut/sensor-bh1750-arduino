@@ -1,0 +1,24 @@
+{
+    "name": "SensorBH1750",
+    "keywords": "SensorBH1750",
+    "description": "Light Sensor BH1750 for Arduino, ESP8266",
+    "authors": {
+        "name": "thiminhnhut",
+        "email": "thiminhnhut@gmail.com",
+        "url": "https://github.com/thiminhnhut",
+        "maintainer": true
+    },
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thiminhnhut/sensor-bh1750-arduino.git"
+    },
+    "export": {
+        "include": "SensorBH1750"
+    },
+    "dependencies": {
+        "BH1750": "claws/BH1750"
+    },
+    "frameworks": "arduino",
+    "platforms": ["atmelavr", "espressif8266"]
+}
